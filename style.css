@@ -47,7 +47,7 @@ body.wrong {
 
 .btn {
   --hue: var(--hue-neutral);
-  border: 1px solit hsl(var(--hue), 100%, 30%);
+  border: 1px solid hsl(var(--hue), 100%, 30%);
   background-color: hsl(var(--hue), 100%, 50%);
   border-radius: 5px;
   padding: 5px 10px;
@@ -55,12 +55,13 @@ body.wrong {
   outline: none;
 }
 
-.btn:hove {
+.btn:hover {
   border-color: black;
 }
 
 .btn.correct {
   --hue: var(--hue-correct);
+  color: back;
 }
 
 .btn.wrong {
@@ -73,7 +74,7 @@ body.wrong {
   padding: 10px 20px;
 }
 
-.contols {
+.controls {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,6 +83,3 @@ body.wrong {
 .hide {
   display: none;
 }
-
-
-
